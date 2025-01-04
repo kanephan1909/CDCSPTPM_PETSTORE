@@ -1,6 +1,6 @@
-  <h1 align="center"><b>Website Thương Mại Điện Tử Cửa Hàng Thú Cưng</b></h1>
+  <h1 align="center"><b>PETSTORE - KANEPHAN Website</b></h1>
 
-- ## PETSHOP là cửa hàng bán thú cưng.
+- ## Website Thương Mại Điện Tử Cửa Hàng Thú Cưng
 - ## Link demo: ....
 
 - ## ✨ **Tính năng**
@@ -67,7 +67,6 @@ Bước 6: Cuối cùng chạy lệnh
 
 php artisan serve
 
-  ```
 - ## 🌍 **Document API**
   `> browser: http://localhost:{PORT}/api-docs/`
 - ## 🖥 **Môi trường hỗ trợ**
