@@ -5,25 +5,25 @@
 
 - ## ✨ **Tính năng**
     - User
-        o	Trang người dùng.
-        o	Đăng ký tài khoản, đăng nhập người dùng
-        o	Tìm kiếm phân trang sản phẩm
-        o	Xem thêm sản phẩm
-        o	Chi tiết sản phẩm
-        o	Giỏ hàng
-        o	Xem các đơn hàng đã mua
-        o	xem trạng thái sản phẩm, thông tin sản phẩm, khách hàng
-        o	Thanh toán COD, Thanh toán online VNPAY
+        - Trang người dùng.
+        - Đăng ký tài khoản, đăng nhập người dùng
+        -	Tìm kiếm phân trang sản phẩm
+        -	Xem thêm sản phẩm
+        -	Chi tiết sản phẩm
+        -	Giỏ hàng
+        -	Xem các đơn hàng đã mua
+        -	xem trạng thái sản phẩm, thông tin sản phẩm, khách hàng
+        -	Thanh toán COD, Thanh toán online VNPAY
     
     - Admin
-        o	Trang quản trị
-        o	Đăng nhập admin      tk: admin@gmail.com mk: 123
-        o	Tổng quan (Dashboard)
-        o	Quản lý đơn hàng 
-        o	Quản lý sản phẩm 
-        o	Quản lý danh mục 
-        o	Thêm sửa xóa sản phẩm, danh mục CRUD, Search
-        o	Thống kê doanh thu tổng quan
+        -	Trang quản trị
+        -	Đăng nhập admin      tk: admin@gmail.com mk: 123
+        -	Tổng quan (Dashboard)
+        -	Quản lý đơn hàng 
+        -	Quản lý sản phẩm 
+        -	Quản lý danh mục 
+        -	Thêm sửa xóa sản phẩm, danh mục CRUD, Search
+        -	Thống kê doanh thu tổng quan
 - ## ⌨️ **Công nghệ sử dụng trong project**
 
   - ### **Back-end, Database**
