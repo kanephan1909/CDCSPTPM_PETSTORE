@@ -1,54 +1,73 @@
-  <h1 align="center"><b>TTB STORE WEBSITE</b></h1>
+  <h1 align="center"><b>Website Thương Mại Điện Tử Cửa Hàng Thú Cưng</b></h1>
 
-- ## TTB Store là một website về cửa hàng thiết bị điện tử.
-- ## Link demo: https://ttbstorevn.web.app/
+- ## PETSHOP là cửa hàng bán thú cưng.
+- ## Link demo: ....
 
 - ## ✨ **Tính năng**
-
-  - Show các sản phẩm nổi bật, chương trình khuyến mãi...
-  - Tìm kiếm, lọc sản phẩm theo yêu cầu người dùng.
-  - Hiển thị chi tiết sản phẩm và đề xuất các sản phẩm liên quan.
-  - Cho phép người dùng thêm, bớt sản phẩm trong giỏ hàng.
-  - So sánh 2 sản phẩm.
-  - Đặt hàng (Thanh toán online với VNPay).
-  - Đăng ký, đăng nhập.
-  - Quản lý tài khoản người dùng, tính toán chương trình khuyến mãi.
-  - Lưu lịch sử mua hàng, đề xuất sản phẩm liên quan.
-
+    - User
+        o	Trang người dùng.
+        o	Đăng ký tài khoản, đăng nhập người dùng
+        o	Tìm kiếm phân trang sản phẩm
+        o	Xem thêm sản phẩm
+        o	Chi tiết sản phẩm
+        o	Giỏ hàng
+        o	Xem các đơn hàng đã mua
+        o	xem trạng thái sản phẩm, thông tin sản phẩm, khách hàng
+        o	Thanh toán COD, Thanh toán online VNPAY
+    
+    - Admin
+        o	Trang quản trị
+        o	Đăng nhập admin      tk: admin@gmail.com mk: 123
+        o	Tổng quan (Dashboard)
+        o	Quản lý đơn hàng 
+        o	Quản lý sản phẩm 
+        o	Quản lý danh mục 
+        o	Thêm sửa xóa sản phẩm, danh mục CRUD, Search
+        o	Thống kê doanh thu tổng quan
 - ## ⌨️ **Công nghệ sử dụng trong project**
 
   - ### **Back-end, Database**
-    - NodeJS (ExpressJS).
-    - MongoDB (mongooseJS).
-    - Hosting: Heroku server
-    - Cloud Server: Atlas MongoDB, Cloudinary.
-    - API Documents: Swagger.
-  - ### **Front-end**
-    - SPA (Single Page Application) & CSR (Client Side Rendering) với ReactJS.
-    - State Management Tool: Redux + Redux thunk.
-    - Xây dựng UI với Ant Design, Css, Scss.
-    - Build project với Webpack.
-    - Restful API với Axios.
+    - PHP >= 10 (Laravel).
+    - MySQL.
+  - ### **Front-end**     
+    - Xây dựng UI với Html/Css, boostrap
   - ### **Tool Team Work**
     - Git, Github.
-    - Eslint, EditorConfig, Jsconfig.
-    - Trello.
-    - Slack.
     - IDE: Visual Studio Code.
-
-- ## 📦 **Cài đặt node_module trước khi chạy**
+- ## 📦 **Yêu cầu cài đặt Composer + Xampp trước khi chạy**
 
   ```
-  > cd Back-end -> yarn install
-  > cd Front-end -> yarn install
+  - Composer :https://getcomposer.org/download/
+  - Xampp: https://www.apachefriends.org/download.html
   ```
 
 - ## 🔨 **Run project**
-  - Thay file .local.env bằng file .env và thay các giá trị trong file .env. Sau đó, chạy các lệnh sau:
   ```
-    > cd front-end -> yarn build
-    > cd back-end -> yarn start (node index.js)
-    > browser: http://localhost:{ PORT | 3000 }
+ > Bước 1: Giải nén tập tin .rar vừa tải về.
+
+ > Bước 2: Mở Xampp start Apache, MySQL
+
+ > Bước 3: Truy cập localhost/phpmyadmin tạo mới tên Database là larave
+        import file shopthucung_laravel/larave.sql và bấm chạy
+
+ > Bước 4: Mở thư mục shopthucung_laravel lên và chạy terminal gõ 2 lệnh sau:
+
+    composer install
+    php artisan key:generate
+
+ > Bước 5: Chỉnh lại file .env
+        -- các thông số dưới sao cho phù hợp với máy --
+        
+        DB_CONNECTION=mysql  	//kiểu kết nối
+        DB_HOST=127.0.0.1   	//host truy cập
+        DB_PORT=3306    	//port mysql
+        DB_DATABASE=larave 	//tên database
+        DB_USERNAME=root  	//user
+        DB_PASSWORD=         	//có pass thì nhập
+Bước 6: Cuối cùng chạy lệnh 
+
+php artisan serve
+
   ```
 - ## 🌍 **Document API**
   `> browser: http://localhost:{PORT}/api-docs/`
