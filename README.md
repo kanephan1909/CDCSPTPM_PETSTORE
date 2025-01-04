@@ -42,7 +42,6 @@
   ```
 
 - ## 🔨 **Run project**
-  ```
  > Bước 1: Giải nén tập tin .rar vừa tải về.
 
  > Bước 2: Mở Xampp start Apache, MySQL
