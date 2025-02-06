@@ -1,8 +1,8 @@
-  <h1 align="center"><b>PETSTORE - KANEPHAN Website</b></h1>
+<h1 align="center"><b>PETSTORE - KANEPHAN Website</b></h1>
 
 - ## Website Thương Mại Điện Tử Cửa Hàng Thú Cưng
 - ## Link demo: ....
-![Uploading image.png…]()
+    ![Screenshot 2025-01-03 093528](https://github.com/user-attachments/assets/90aef36c-e6d9-4a5e-8cb2-2a2341ea98ea)
 - ## ✨ **Tính năng**
     - User
         - Trang người dùng.
